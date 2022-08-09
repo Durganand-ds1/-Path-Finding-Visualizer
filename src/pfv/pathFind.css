@@ -1,0 +1,48 @@
+.grid {
+  margin: 100px 0 0;
+}
+.ButtonStyle {
+  direction: flex;
+  flex-direction: column;
+  height: 40px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: black;
+}
+.ButtonStyle .btn1 {
+  justify-content: center;
+  margin-right: 120px;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 800;
+  border-radius: 10px;
+}
+.btn2 {
+  background-color: white;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 800;
+  border-radius: 10px;
+}
+.btn1:hover {
+  padding: 22px;
+  background-color: rgb(130, 255, 130);
+  color: black;
+}
+.btn2:hover {
+  padding: 22px;
+  background-color: rgb(153, 253, 153);
+  color: black;
+}
